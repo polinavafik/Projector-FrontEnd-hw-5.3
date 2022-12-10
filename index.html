@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+
+    <title>Teach for UA</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__logo">
+            <img src="./img/logo header.svg" alt="logo">
+            <p class="header__logo-p">Програма для змін у країні</p>
+        </div>
+
+        <nav class="header__nav">
+            <ul class="header__nav-ul">
+                <li class="nav__item">
+                    <a href="#">школам</a>
+                    <img src="./img/lil check.png" alt="">
+                </li>
+                <li class="nav__item">
+                    <a href="#">партнерам</a>
+                    <img src="./img/lil check.png" alt="">
+                </li>
+                <li class="nav__item">
+                    <a href="#">про нас</a>
+                    <img src="./img/lil check.png" alt="">
+                </li>
+                <li class="nav__item">
+                    <a href="#">історії</a>
+                    <img src="./img/lil check.png" alt="">
+                </li>
+                <li class="nav__item">
+                    <a href="#">підтримка</a>
+                    <img src="./img/lil check.png" alt="">
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__ua">
+            <p><a href="#">УКР</a></p>
+            <img src="./img/Frame 62.png" alt="">
+
+        </div>
+    </header>
+
+    <main>
+        <section class="section section-partners">
+            <div class="section-partners__header flex">
+                <div class="section-partners__wrapper-left">
+                    <div class="section__wrapper-text section-partners__wrapper-text">
+                        <span class="section__span-blue">партнерам</span>
+                        <h2 class="section__title">залучись — будь нашим партнером</h2>
+                        <p class="section-partners__section-paragraph section__paragraph">Будь спонсором, зроби зміни в
+                            країні можливими.</p>
+                    </div>
+                </div>
+                <div class="section-partners__wrapper-right">
+                    <img class="section-partners__arrow" src="./img/black arrow down.png" alt="">
+                </div>
+            </div>
+            <div class="section-partners__bottom flex">
+                <div class="section-partners__bottom-item">
+                    <div class="section-partners__span-wrap">
+                        <span class="section__span-blue">партнерам</span>
+                    </div>
+                </div>
+                <div class="section-partners__bottom-item section-partners__bottom-item--on">
+                    <div class="section-partners__span-wrap">
+                        <span class="section__span-blue section__span-white">інвестувати</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-invest flex">
+            <div class="section-invest__column">
+                <div class="section__wrapper-text">
+                    <span class="section__span-blue">інвестиції</span>
+                    <h2 class="section__title-medium">зробити — інвестиції у програму</h2>
+                    <h4 class="section-invest__title-small section__title-small">виберіть спосіб оплати</h4>
+                </div>
+            </div>
+
+            <div class="section-invest__column">
+                <form>
+                    <div class="flex">
+                        <div>
+                            <input type="radio" name="payment-type" id="1">
+                            <label for="payment-type">Банківська карта</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment-type" id="2">
+                            <label for="payment-type">PayPal</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment-type" id="3">
+                            <label for="payment-type">Банківська платіжна квитанція</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- <footer>
+        <img class="footer__img" src="./img/footer-pic.jpg" alt="">
+
+        <div class="footer__grid flex">
+
+            <img class="footer__logo" src="./img/logo footer.svg" alt="">
+
+            <div class="footer__grid-item">
+                <h4 class="section__title-small">про нас</h4>
+                <ul>
+                    <li class="grid-item__li">Наша діяльність</li>
+                    <li class="grid-item__li">Наші цінності</li>
+                    <li class="grid-item__li">Наша програма</li>
+                </ul>
+            </div>
+
+            <div class="footer__grid-item">
+                <h4 class="section__title-small">програма</h4>
+                <ul>
+                    <li class="grid-item__li">Школи-партнери</li>
+                    <li class="grid-item__li">Учасники-вчителі</li>
+                    <li class="grid-item__li">Партнери-спонсори</li>
+                </ul>
+            </div>
+
+            <div class="footer__grid-item">
+                <h4 class="section__title-small">Спільнота</h4>
+                <ul>
+                    <li class="grid-item__li">Команда</li>
+                    <li class="grid-item__li">Кар’єра</li>
+                    <li class="grid-item__li">Випускники</li>
+                </ul>
+            </div>
+
+            <div class="footer__grid-item">
+                <h4 class="section__title-small">підпишись</h4>
+                <p class="section__paragraph">Підпишись до нашої спільноти та отримуй листи із новинами, пропозиціями та
+                    запрошеннями до колективних зібрань.</p>
+                <input class="footer__input" type="email" name="email" id="email"
+                    placeholder="Напишіть свою електронну адресу" required>
+                <button class="button">— ВІДПРАВИТИ</button>
+                <div class="footer__social">
+                    <h4 class="section__title-small">слідкуй за нами</h4>
+                    <div class="flex">
+                        <img class="footer__social-img" src="./img/footer-logo-inst.svg" alt="">
+                        <img class="footer__social-img" src="./img/footer-logo-facebook.svg" alt="">
+                        <img class="footer__social-img" src="./img/footer-logo-youtube.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <p class="footer__section-paragraph section__paragraph">«Навчай для України» — партнер міжнародної мережі Teach
+            For All © Громадська організація «Навчай для України»</p>
+
+    </footer> -->
+
+</body>
+
+</html>

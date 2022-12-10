@@ -1,0 +1,516 @@
+@font-face {
+    font-family: Basis Grotesque Pro Bold;
+    src: url(/fonts/BasisGrotesquePro-Bold.ttf) format('truetype');
+    src: url(/fonts/BasisGrotesquePro-Bold.woff) format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Basis Grotesque Pro Light;
+    src: url(/fonts/BasisGrotesquePro-Light.ttf) format('truetype');
+    src: url(/fonts/BasisGrotesquePro-Light.ttf) format('woff');
+    font-weight: light;
+}
+@font-face {
+    font-family: Basis Grotesque Pro Medium;
+    src: url(/fonts/BasisGrotesquePro-Medium.ttf) format('truetype');
+    src: url(/fonts/BasisGrotesquePro-Medium.ttf) format('woff');
+    font-weight: medium;
+}
+@font-face {
+    font-family: Basis Grotesque Pro;
+    src: url(/fonts/BasisGrotesquePro-Regular.ttf) format('truetype');
+    src: url(/fonts/BasisGrotesquePro-Regular.ttf) format('woff');
+}
+
+body {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 2.5vh 5.3vh 0 5.3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo-p {
+    font-weight: 300;
+    font-size: 1.3vw;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #5c5c5c;
+
+    margin-left: 1vh;
+    white-space: nowrap;
+    margin-right: 1vh;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header__logo img {
+    max-width: 4.3vh;
+}
+
+.header__nav-ul {
+    display: flex;
+    justify-content: space-around;
+    white-space: nowrap;
+    
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.nav__item a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.85;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap
+}
+
+.nav__item img {
+    padding: 10px;
+}
+
+.header__ua a {
+    font-weight: 600;
+    font-size: 1.15vw;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #0536FC;
+    opacity: 0.85;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header__ua {
+    display: flex;
+    align-items: start;
+}
+
+/*---базові стилі---*/
+
+.flex {
+    display: flex;
+}
+
+.section__span-blue {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #0536FC;
+}
+
+.section__title {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.4vw;
+    line-height: 4.6vw;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 2vw;
+
+}
+
+.section__title-medium {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8vw;
+    line-height: 3vw;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 2vw;
+}
+
+.section__title-small {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.section__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 1.9vw;
+    letter-spacing: -0.03em;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-align: center;
+
+    padding: 1.4vw 1.9vw;
+    background: #0536FC;
+
+    cursor: pointer ;
+}
+
+.section__wrapper-text {
+    margin-left: 14.6vw;
+}
+
+
+
+.section-partners__header {
+    margin-top: 8.3vh;
+}
+.section-partners__wrapper-left {
+    width: 50vw;
+}
+.section-partners__wrapper-text {
+    width: 32vw;
+}
+.section-partners__section-paragraph {
+    margin-top: 4.86vw;
+}
+.section-partners__wrapper-right {
+    width: 50vw;
+    position: relative;
+}
+.section-partners__arrow {
+    width: fit-content;
+    height: fit-content;
+    padding: 1vw;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 1vw;
+}
+.section-partners__bottom{
+    margin-top: 10.4vw;
+}
+.section-partners__bottom-item {
+    width: 50vw;
+    border-top: 1px solid #5c5c5c1a;
+    border-bottom: 1px solid #5c5c5c1a;
+    border-left: 1px solid #5c5c5c1a;
+}
+.section-partners__span-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.4vw;
+    padding-bottom: 2.4vw;
+}
+.section-partners__bottom-item--on {
+    background: #0536FC;
+    color: #FFFFFF;
+}
+.section__span-white {
+    color: #FFFFFF;
+}
+
+.section-invest {
+    margin-top: 10.42vw;
+}
+.section-invest__column {
+    width: 50vw;
+}
+.section-invest__title-small {
+    margin-top: 4.86vw;
+}
+
+/*-----footer-----*/
+
+footer {
+    width: 100vw;
+    height: fit-content;
+    background-color: #0536FC;
+    position: relative;
+    margin-top: 20vw;
+    padding-bottom: 4vw;
+}
+.footer__img {
+    position: absolute;
+    width: 85vw;
+    top: -8vw;
+}
+.footer__logo {
+    align-self: flex-start;
+    padding-right: 8vw;
+}
+.footer__grid {
+    padding-top: 25vw;
+    padding-left: 3vw;
+    
+}
+.footer__grid__item {
+    width: 20vw;
+}
+
+.footer__grid__item .section__title_small {
+    color: #FFFFFF;
+    padding-bottom: 1vw;
+}
+.footer__grid__item__li {
+    color: #FFFFFF;
+    margin-top: 1.5vw;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 1.9vw;
+}
+
+
+
+.footer__grid__item .section__paragraph {
+    color: #FFFFFF;
+}
+
+.footer__input {
+    border: 0;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 1.9vw;
+    letter-spacing: -0.03em;
+    background: none;
+    color: #FFFFFF;
+    width: 23vw;
+    margin-top: 8vw;
+    padding-bottom: 1vw;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.footer__input::placeholder {
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.footer__input:focus {
+    outline: 0;
+}
+
+footer .button {
+    margin-left: -1.8vw;
+    margin-top: 2vw;
+}
+
+.footer__social {
+    margin-top: 8vw;
+    width: fit-content;
+}
+
+.footer__social .flex {
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.footer__social .footer__social__img {
+    width: 2vw;
+}
+
+.footer__section__paragraph {
+    color: #FFFFFF;
+    opacity: 0.4;
+    width: 40vw;
+    margin-left: 3vw;
+}
+
+
+/*  media  */
+
+@media (max-width: 600px) {
+    
+    header {
+        margin:2vh 2vh 0 2vh;
+    }
+    .header__logo-p {
+        display: none;
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header__logo img {
+        width: 5vw;
+    }
+    
+    .nav__item {
+        margin-left: 1vw;
+    }
+    
+    .nav__item a{
+        font-size: 1.8vw;
+    }
+    
+    .nav__item img {
+        padding: 1vw;
+        width: 1.4vw;
+    }
+    
+    .header__ua a {
+        margin-left: 0.5vw;
+        font-size: 1.8vw;
+    }
+    
+    /*---базові стилі---*/
+
+    .section__span-blue {
+        font-size: 3vw;
+    }
+    
+    .section__title {
+        font-size: 8vw;
+        line-height: 8.4vw;
+    
+    }
+    
+    .section__title-medium {
+        font-size: 5.6vw;
+        line-height: 6vw;
+    }
+    
+    .section__title-small {
+        font-size: 3.3vw;
+        line-height: 3.6vw;
+    }
+    
+    .section__paragraph {
+        font-size: 2.8vw;
+        line-height: 3vw;
+    }
+    
+    .button {
+        font-size: 2.2vw;
+        line-height: 3.5vw;
+        letter-spacing: -0.03em;
+        padding: 1.4vw 1.9vw;
+   
+    }
+
+    /*-----footer-----*/
+    footer {
+        width: 100vw;
+        height: fit-content;
+        background-color: #0536FC;
+        position: relative;
+        margin-top: 15vw;
+        padding: 4vw;
+    }        
+    .footer__logo {
+        align-self: flex-start;
+        padding-right: 2vw;
+        width: 4vw;
+    }    
+    .footer__grid {
+        padding-top: 25vw;
+        padding-left: 3vw;
+        
+    }   
+    .footer__grid__item {
+        width: 20vw;
+    }
+    .footer__grid__item .section__title_small {
+        font-size: 2vw;
+    }
+    .footer__grid__item__li {
+        margin-top: 1.2vw;
+        font-size: 1.5vw;
+    }
+    .footer__grid__item .section__paragraph {
+        color: #FFFFFF;
+        font-size: 1.5vw;
+        line-height: 1.6vw;
+    }
+    .footer__input {
+        border: 0;
+        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-weight: 400;
+        font-size: 1.1vw;
+        line-height: 1.4vw;
+        letter-spacing: -0.03em;
+        background: none;
+        color: #FFFFFF;
+        width: 18vw;
+        margin-top: 6vw;
+        padding-bottom: 1vw;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    
+    .footer__input::placeholder {
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+    
+    .footer__input:focus {
+        outline: 0;
+    }
+    
+    footer .button {
+        margin-left: -1.8vw;
+        margin-top: 2vw;
+        font-size: 1.5vw;
+    }
+    
+    .footer__social {
+        margin-top: 4vw;
+        width: fit-content;
+    }
+    .footer__social .section__title_small {
+        font-size: 2vw;
+    }
+ 
+    .footer__social .flex {
+        justify-content: space-between;
+        margin-top: 2vw;
+    }
+    
+    .footer__social .footer__social__img {
+        width: 2vw;
+    }
+    
+    .footer__section__paragraph {
+        color: #FFFFFF;
+        opacity: 0.4;
+        width: 40vw;
+        margin-left: 3vw;
+        font-size: 1.3vw;
+        line-height: 1.5;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header__logo-p {
+        display: inline-block;
+        font-size: 4.4vw;
+    }
+    .header__nav {
+        display: none;
+    }
+
+}
