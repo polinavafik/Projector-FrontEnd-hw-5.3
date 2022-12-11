@@ -243,12 +243,15 @@ header {
 .section-invest__form {
     margin-top: 11.7vw;
 }
-.form__radio {
+.form__radio1 {
     width: 37.5vw;
     display: flex;
-    justify-content: space-between;
     padding-top: 3.3vw;
     padding-bottom: 3.3vw;
+    justify-content: space-between;
+}
+.form__radio-item {
+    font-family: inherit;
 }
 .invest-buttons__wrap {
     width: 44.2vw;
@@ -263,12 +266,52 @@ header {
     justify-content: center;
     padding: 1.2vw 2vw;
     background-color: #ffffff;
-    border: 1px solid #5c5c5c1a;
+    border: 1px solid #302f2f38;
+    font-family: inherit;
+    font-size: medium;
+}
+.form__invest-btn:focus {
+    background-color:#0536FC;
+    border: none;
+    color: white;
+}
+.form__invest-custom {
+    width: 44vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: #ffffff;
+    border: 1px solid #302f2f38;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.invest-custom__input {
+    width: 40vw;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+    background-color: #ffffff;
+    font-family: inherit;
+    font-size:large;
+    border: none;
+}
+.invest-custom__input ::placeholder {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+}
+.invest-custom__input:focus {
+    outline: none;
 }
 
 .invest-btn__input:checked + .form__invest-btn { background-color:blue; }
 
-
+.form__radio2 {
+    width: 18.61vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.8vw;
+    padding-bottom: 1.8vw;
+}
 
 /*-----footer-----*/
 
