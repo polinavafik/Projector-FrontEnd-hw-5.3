@@ -175,8 +175,9 @@ header {
     letter-spacing: -0.03em;
     color: #FFFFFF;
     text-align: center;
+    text-transform: uppercase;
 
-    padding: 1.4vw 1.9vw;
+    padding: 1.4vw 2.4vw;
     background: #0536FC;
 
     cursor: pointer ;
@@ -351,6 +352,9 @@ label {
     text-decoration: none;
     color:#0536FC;
 }
+.invest-form__btn {
+    margin-top: 2vw;
+}
 
 /*-----footer-----*/
 
@@ -393,8 +397,6 @@ footer {
     font-size: 1.4vw;
     line-height: 1.9vw;
 }
-
-
 
 .footer__grid-item .section__paragraph {
     color: #FFFFFF;
