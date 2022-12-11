@@ -314,11 +314,23 @@ header {
 .invest-form__input {
     padding: 1vw;
     border: none;
-    border-bottom:1px solid #5c5c5c;
+    border-bottom: 1px solid #302f2f38;
+    width: 33vw;
+}
+.invest-form__input:focus {
+    outline: none;
 
 }
 .invest-form__input ::placeholder {
     font-family: 'Basis Grotesque Pro', sans-serif;
+}
+
+.invest-form__container {
+    margin-top: 1.5vw;
+}
+label {
+    font-family: inherit;
+    color: #6b6b6b;
 }
 
 
@@ -346,15 +358,15 @@ footer {
     padding-left: 3vw;
     
 }
-.footer__grid__item {
+.footer__grid-item {
     width: 20vw;
 }
 
-.footer__grid__item .section__title_small {
+.footer__grid-item .section__title-small {
     color: #FFFFFF;
     padding-bottom: 1vw;
 }
-.footer__grid__item__li {
+.grid-item__li {
     color: #FFFFFF;
     margin-top: 1.5vw;
 
@@ -366,8 +378,10 @@ footer {
 
 
 
-.footer__grid__item .section__paragraph {
+.footer__grid-item .section__paragraph {
     color: #FFFFFF;
+    line-height: 2vw;
+    margin-top: 1.5vw;
 }
 
 .footer__input {
