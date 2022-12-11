@@ -124,7 +124,7 @@ header {
 }
 
 .section__title {
-    font-family: 'Basis Grotesque Pro';
+    font-family: 'Basis Grotesque Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 3.95vw;
@@ -206,8 +206,8 @@ header {
     position: relative;
 }
 .section-partners__arrow {
-    width: fit-content;
-    height: fit-content;
+    width: 2.5vw;
+    height: 2.5vw;
     padding: 1vw;
     background-color: transparent;
     position: absolute;
@@ -250,7 +250,7 @@ header {
     margin-top: 11.7vw;
 }
 .form__radio1 {
-    width: 37.5vw;
+    width: 40vw;
     display: flex;
     padding-top: 3.3vw;
     padding-bottom: 3.3vw;
@@ -457,53 +457,137 @@ footer .button {
 
 /*  media  */
 
-@media (max-width: 600px) {
+@media (max-width: 960px) {
+
+    .header__logo-p {
+        font-weight: 300;
+        font-size: 1.66vw;
+        line-height: 24px;
+        letter-spacing: -0.03em;
+        color: #5c5c5c;
     
-    header {
-        margin:2vh 2vh 0 2vh;
+        margin-left: 1vh;
+        white-space: nowrap;
+        margin-right: 1vh;
     }
+    .nav__item a{
+        font-size: 1.66vw;
+    }   
+    .header__ua a {
+        font-size: 1.66vw;
+    }
+
+    /*---базові стилі---*/    
+    .section__span-blue {
+        font-size: 1.66vw;
+    }
+    .section__title {
+        font-size: 4.93vw;
+        line-height: 6vw;
+    }
+    .section__title-medium {
+        font-size: 3.5vw;
+        line-height: 4.2vw;
+    }
+    .section__title-small {
+        font-size: 1.66vw;
+        line-height: 1.8vw;
+    }
+    .section__paragraph {
+        font-size: 1.66vw;
+        line-height: 1.8vw;
+    }
+    .button {
+        font-size: 1.66vw;
+        line-height: 1.8px;
+        padding: 2vw 2.4vw;
+    }
+  
+    .section__wrapper-text {
+        margin-left: 15vw;
+    }
+    .section-partners__header {
+        margin-top: 9vh;
+    }
+    .section-partners__wrapper-text {
+        width: 45vw;
+    }
+    .section-partners__section-paragraph {
+        margin-top: 5vw;
+    }
+    .section-partners__arrow {
+        width: 2.6vw;
+        height: 2.6vw;
+        cursor: pointer;
+    }
+    .section-partners__bottom{
+        margin-top: 16vw;
+    }
+
+
+    .section-invest {
+        margin-top: 16vw;
+    }
+    .section-invest__title-medium{
+        width: 45vw;
+        font-size: 3vw;
+        line-height: 3.5vw;
+    }
+    .section-invest__title-small {
+        margin-top: 7.29vw;
+    }
+    .section-invest__form {
+        margin-top: 16.93vw;
+    }
+    .form__radio1 {
+        width: 48vw;
+    }
+    .invest-buttons__wrap {
+        width: 45vw;
+    }
+    .form__invest-custom {
+        width: 44.8vw;
+    }
+    .form__radio2 {
+        width: 25vw;
+    }
+    input::placeholder {
+        font-size: medium;
+    }
+
+    .grid-item__li {
+        font-size: 1.66vw;
+    }
+    .footer__grid-item .section__paragraph {
+        color: #FFFFFF;
+        line-height: 2vw;
+        margin-top: 1.5vw;
+        font-size: 1.66vw;
+        letter-spacing: 0.01em;
+        width: 22.5vw;
+    }
+    .footer__input {
+        width: 20vw;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
     .header__logo-p {
         display: none;
     }
-    .column {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .header__logo img {
-        width: 5vw;
-    }
-    
-    .nav__item {
-        margin-left: 1vw;
-    }
-    
-    .nav__item a{
-        font-size: 1.8vw;
-    }
-    
-    .nav__item img {
-        padding: 1vw;
-        width: 1.4vw;
-    }
-    
-    .header__ua a {
-        margin-left: 0.5vw;
-        font-size: 1.8vw;
-    }
-    
+        width: 6vw;
+    }    
     /*---базові стилі---*/
-
     .section__span-blue {
-        font-size: 3vw;
+        font-size: 2.08vw;
     }
-    
     .section__title {
-        font-size: 8vw;
-        line-height: 8.4vw;
-    
+        font-size: 5.4vw;
+        line-height: 5.9vw;
     }
-    
     .section__title-medium {
         font-size: 5.6vw;
         line-height: 6vw;
