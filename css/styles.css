@@ -108,6 +108,11 @@ header {
     display: flex;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
 .section__span-blue {
     font-style: normal;
     font-weight: 700;
@@ -339,6 +344,14 @@ label {
     margin-top: 2vw;
 }
 
+.checkmarks-container__item {
+    margin-top: 1vw;
+}
+.checkmarks-container__item--a {
+    text-decoration: none;
+    color:#0536FC;
+}
+
 /*-----footer-----*/
 
 footer {
@@ -432,7 +445,7 @@ footer .button {
     width: 2vw;
 }
 
-.footer__section__paragraph {
+.footer__section-paragraph {
     color: #FFFFFF;
     opacity: 0.4;
     width: 40vw;
