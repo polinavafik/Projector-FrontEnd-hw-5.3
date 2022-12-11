@@ -96,17 +96,18 @@
                 <form class="section-invest__form">
                     <div class="form__radio1 flex">
                         <div class="form__radio-item">
-                            <label>
-                                <input type="radio" name="payment-type" value="1"> Банківська карта
+                            <label class="radio-item__label">
+                                <input class="radio-item__input" type="radio" name="payment-type" value="1"> Банківська
+                                карта
                             </label>
                         </div>
                         <div class="form__radio-item">
-                            <label>
+                            <label class="radio-item__label">
                                 <input type="radio" name="payment-type" value="2"> PayPal
                             </label>
                         </div>
                         <div class="form__radio-item">
-                            <label>
+                            <label class="radio-item__label">
                                 <input type="radio" name="payment-type" value="3"> Банківська платіжна
                                 квитанція
                             </label>
@@ -127,16 +128,21 @@
                     </div>
                     <div class="form__radio2 flex">
                         <div class="form__radio-item">
-                            <label>
+                            <label class="radio-item__label">
                                 <input type="radio" name="payment-time" value="1"> Щомісячно
                             </label>
                         </div>
                         <div class="form__radio-item">
-                            <label>
+                            <label class="radio-item__label">
                                 <input type="radio" name="payment-time" value="2"> Одноразово
                             </label>
                         </div>
                     </div>
+                    <h4 class="section__title-small">ім’я</h4>
+                    <input class="invest-form__input" type="text" name="name" placeholder="Напишіть ваше ім’я">
+                    <h4 class="section__title-small">Email</h4>
+                    <input class="invest-form__input" type="email" name="email"
+                        placeholder="Напишіть вашу електронну адресу">
 
                 </form>
             </div>

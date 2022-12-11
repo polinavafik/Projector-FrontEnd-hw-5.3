@@ -252,7 +252,9 @@ header {
 }
 .form__radio-item {
     font-family: inherit;
+    
 }
+
 .invest-buttons__wrap {
     width: 44.2vw;
     display: flex;
@@ -302,9 +304,6 @@ header {
 .invest-custom__input:focus {
     outline: none;
 }
-
-.invest-btn__input:checked + .form__invest-btn { background-color:blue; }
-
 .form__radio2 {
     width: 18.61vw;
     display: flex;
@@ -312,6 +311,16 @@ header {
     padding-top: 1.8vw;
     padding-bottom: 1.8vw;
 }
+.invest-form__input {
+    padding: 1vw;
+    border: none;
+    border-bottom:1px solid #5c5c5c;
+
+}
+.invest-form__input ::placeholder {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+}
+
 
 /*-----footer-----*/
 
